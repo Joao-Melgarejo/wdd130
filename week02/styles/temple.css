@@ -1,0 +1,27 @@
+header,
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+}
+
+h1 {
+    text-align: center;
+}
+
+img {
+    width: 400px;
+    box-shadow: 0 0 30px #333;
+    align-self: center;
+    margin: 0 auto;
+    display: block;
+}
+
+section {
+    background-color: lightgray;
+    padding: 20px;
+    margin: 20px;
+    border: 1px solid #ccc;
+    max-width: 500px;
+    margin: 20px auto;
+}
