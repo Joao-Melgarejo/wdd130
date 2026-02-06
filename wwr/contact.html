@@ -41,8 +41,8 @@
                     <h3>Find Us</h3>
                     <iframe
                       src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d62883.05877843799!2d-77.883333!3d-8.833333!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x91adbcd0a6048f07%3A0x629531812833139!2sRio%20Santa!5e0!3m2!1sen!2spe!4v1700000000000!5m2!1sen!2spe"
-                      width="100%" height="250" style="border:0;" allowfullscreen=""
-                      loading="lazy"></iframe>
+                      width="100%" height="250" allowfullscreen="" loading="lazy">
+                    </iframe>
                 </div>
 
                 <form action="#" method="get" class="contact-form">
@@ -56,19 +56,23 @@
 
                     <fieldset>
                         <legend>Purpose of Message</legend>
-                        <label class="radio-label"><input type="radio" name="purpose"
-                              value="general" checked> General Inquiry</label>
-                        <label class="radio-label"><input type="radio" name="purpose"
-                              value="reservation"> Reservation</label>
-                        <label class="radio-label"><input type="radio" name="purpose"
-                              value="suggestion"> Suggestion</label>
+                        <label class="radio-label">
+                            <input type="radio" name="purpose" value="general" id="general" checked>
+                            General Inquiry
+                        </label>
+                        <label class="radio-label">
+                            <input type="radio" name="purpose" value="reservation" id="reservation">
+                            Reservation
+                        </label>
+                        <label class="radio-label">
+                            <input type="radio" name="purpose" value="suggestion" id="suggestion">
+                            Suggestion
+                        </label>
                     </fieldset>
 
-                    <label for="fmessage">Message:</label>
-                    <textarea id="fmessage" name="fmessage" rows="4"></textarea>
-
                     <label class="checkbox-label">
-                        <input type="checkbox" name="newsletter"> Please subscribe me to the monthly
+                        <input type="checkbox" name="newsletter" id="newsletter"> Subscribe me to
+                        the monthly
                         newsletter
                     </label>
 
